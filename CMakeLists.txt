@@ -76,8 +76,8 @@ if(NEED_DOWNLOAD_C_DRIVER)
     # Declare mongo-c-driver as a dependency
     FetchContent_Declare(
         mongo-c-driver
-        GIT_REPOSITORY https://github.com/mongodb/mongo-c-driver.git
-        GIT_TAG ${LIBMONGOC_DOWNLOAD_VERSION}
+        GIT_REPOSITORY https://github.com/DeepForge-Technology/mongo-c-driver.git
+        GIT_TAG master
     )
 
     FetchContent_GetProperties(mongo-c-driver)
